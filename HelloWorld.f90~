@@ -1,0 +1,8 @@
+program HelloWorld
+  use OMP_LIB
+  
+  
+
+  print*,"Hello from process: ", OMP_GET_THREAD_NUM()
+  
+end program HelloWorld
